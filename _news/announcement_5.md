@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Wrapped up my NASA GSFC internship — presented [**CORTEx**](/projects/nasarl/) at the Code 525 branch presentation and the National Space Club poster session
+Last day at my NASA GSFC internship

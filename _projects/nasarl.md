@@ -42,12 +42,12 @@ The other half of my work was the supplemental sensing layer: an HDC-based artif
 
 Classification accuracy climbs with motion (worst case is a stopped robot on textured/carpet terrain, at 61.5%, vs. 94–99% while driving), and the HDC memory-similarity matrix shows the same terrain reads as highly self-consistent across stopped/straight/turning states while still separating cleanly from other terrains. At runtime, crossing from a smooth surface onto a high-slip one triggers a reclassification that drops the speed multiplier exactly where slip risk is higher, then restores full speed back on easy ground — all while landing within about 2% of ideal navigation performance.
 
-For hardware, I wrote the TurtleBot 4 deployment script: reading and formatting live sensor data, distance-based motion commands with tunable distance/speed parameters, and built-in emergency safety stops, plus the configuration docs that get deployment time under two minutes. Getting there meant calibrating the TB4's sensors and chasing down jittery movement and a persistent left-turn bias, eventually fixed with a factory reset plus custom diagnostic scripts.
-
 <div style="display: flex; align-items: center; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin: 1.5rem 0;">
   <img src="{{ "assets/img/projects/recents/nasarl-terrain-accuracy.png" | relative_url }}" class="img-fluid rounded z-depth-1" style="height: 280px; width: auto;" data-zoomable>
   <img src="{{ "assets/img/projects/recents/nasarl-hdc-similarity.png" | relative_url }}" class="img-fluid rounded z-depth-1" style="height: 280px; width: auto;" data-zoomable>
 </div>
+
+For hardware, I wrote the TurtleBot 4 deployment script: reading and formatting live sensor data, distance-based motion commands with tunable distance/speed parameters, and built-in emergency safety stops, plus the configuration docs that get deployment time under two minutes. Getting there meant calibrating the TB4's sensors and chasing down jittery movement and a persistent left-turn bias, eventually fixed with a factory reset plus custom diagnostic scripts.
 
 Alongside the engineering, the internship ran on communication: weekly progress briefings to Code 525, the final branch presentation on 8/6/26, a poster co-authored with the five other interns, and a keynote at the National Space Club & Foundation luncheon, where I spoke about the internship, my research interests, and career goals to 100+ attendees including NASA researchers and the Space Club President.
 

@@ -4,7 +4,7 @@ title: GRASP
 description: <strong>Open-world tabletop manipulation</strong> system using <strong>neuro-symbolic reasoning</strong> to execute <strong>natural language sorting instructions</strong> for warehouse environments.
 importance: 1
 category: projects
-tags: [Robotics, AI, Computer Vision]
+tags: [Robotics, AI, Computer Vision, Assistive Tech]
 # img: assets/img/projects/grasp7.png
 images:
   slider: true

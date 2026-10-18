@@ -89,6 +89,11 @@ ninja.data = [{
           description: "Reinforcement learning simulator for NASA Goddard&#39;s CORTEx TurtleBot 4 terrain-adaptive navigation project, training and visualizing a CMAC/TD3 rover-navigation agent in real time. 90.2% arrival rate on a Raspberry Pi 4 with a provably-safe control stack and an 88 KB camera-free terrain classifier.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nasarl/";
+            },},{id: "projects-nudge",
+          title: 'Nudge',
+          description: "A lightweight EMG-controlled assistive glove that helps people with ALS grip and release objects using their own muscle signals.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nudge/";
             },},{id: "projects-signscribe",
           title: 'SignScribe',
           description: "Award-winning bionic robotic hand that translates speech to ASL finger spelling in real time using an open-source ASR kit and rendered GUI through Blender.",

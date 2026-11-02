@@ -13,11 +13,11 @@ tags: [Hardware, PCB Design, Assistive Tech]
   {% include figure.liquid path="assets/img/projects/nudge_glove.png" class="img-fluid rounded z-depth-1" zoomable="true" caption="Glove frame CAD: a hex-cut back-of-hand plate with ring guides along each finger for the actuation cables." %}
 </div>
 
-Nudge is a fall internship project with UMD Cyber-Physical Systems Engineering (CPSE), building a soft assistive glove for people with ALS. A surface EMG sensor on the forearm picks up the wearer's muscle activity, and a wrist-mounted pod drives small motors that pull cables to close the thumb and index finger, so a weak flex is enough to grip and release everyday objects. I'm building it with three teammates, and my part is the EMG sensing hardware.
+Nudge is a fall internship project with UMD Cyber-Physical Systems Engineering (CPSE), building a soft assistive glove for people with ALS. A surface EMG sensor on the forearm picks up the wearer's muscle activity, and a wrist-mounted pod drives small motors that pull cables to close the thumb and index finger to grip and release everyday objects. I'm building it with three teammates, and my part is the EMG sensing hardware.
 
 ### Where it started
 
-Our team is rebuilding Nudge from a first prototype built by a team in CPSE's 2026 summer program ([NudgeV1 on GitHub](https://github.com/allisonandreyev/NudgeV1)). That version was theirs, not ours: three MyoWare 2.0 EMG sensors wired by hand to a XIAO ESP32-C6, a PCA9685 servo driver, Bluetooth firmware, an Android app for calibration and physician review, and the original enclosed glove CAD. It showed the idea worked, but the three sensors were separate boards on hand-soldered perfboard wiring, and the glove shell was fully enclosed.
+Our team is rebuilding Nudge from a first prototype built by a team in CPSE's 2026 summer program ([NudgeV1 on GitHub](https://github.com/allisonandreyev/NudgeV1)). 
 
 ### What I built
 
@@ -28,7 +28,7 @@ I designed the two **flexible EMG PCBs** in KiCad. The main one holds all three 
   <img src="{{ "assets/img/projects/nudge_myoware.png" | relative_url }}" class="img-fluid rounded z-depth-1" style="height: 360px; width: auto;" data-zoomable>
 </div>
 
-The board on the right is that sensor PCB: three MyoWare 2.0 sensors sit on stiffened sections separated by bend zones, so the board can curve around the forearm, and all three EMG channels break out to one 5-pin connector. The board on the left is my second flex PCB, a custom electrode strip with 17 round electrode pads exposed on the skin side, routed to an onboard chip group and a single connector, with a hatched ground fill on the bottom layer and a stainless-steel stiffener under the components. Both are 2-layer polyimide.
+The board on the right is that sensor PCB: three MyoWare 2.0 sensors sit on stiffened sections separated by bend zones, so the board can curve around the forearm, and all three EMG channels break out to one 5-pin connector. The board on the left is my second flex PCB, a custom electrode strip with 17 round electrode pads exposed on the skin side, routed to an onboard chip group and a single connector, with a hatched ground fill on the bottom layer and a stainless-steel stiffener under the components. 
 
 ### What my teammates built
 

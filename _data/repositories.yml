@@ -1,14 +1,27 @@
 github_users:
   - allisonandreyev
 
-repo_description_lines_max: 2
-
+# Cards are rendered from this file (see _includes/repository/repo.liquid), so every
+# repo needs a description here. GitHub descriptions are not fetched.
 github_repos:
-  - allisonandreyev/signscribe
-  - allisonandreyev/cmsc477
-  - allisonandreyev/whisperquantization
-  - allisonandreyev/arxaiv
-  - allisonandreyev/ideator
-  - allisonandreyev/grasp
-  - willchan9/aixr_healthcare
-  - willchan9/ar_perception
+  - repo: allisonandreyev/GRASP-Robot
+    language: Python
+    description: "GRASP: Grounded Reasoning and Symbolic Planning for open-world tabletop manipulation. GroundingDINO detection, LLM goal states, and CoreXY gantry pick-and-place."
+  - repo: allisonandreyev/NudgeV1
+    language: C++ / Kotlin
+    description: "Fork of the CPSE summer 2026 team's first Nudge prototype: XIAO ESP32-C6 servo and BLE firmware, Android app, and glove CAD. My fall rebuild is on the Nudge project page."
+  - repo: allisonandreyev/signscribe
+    language: Python
+    description: Bionic hand that uses the Vosk speech recognition kit to translate live speech into ASL finger spelling.
+  - repo: allisonandreyev/arxaiv
+    language: Python
+    description: Dataset and analysis for arxAIv, an installation of 100 AI-generated computer vision papers, with CLIP-embedding force graphs comparing them to real CVPR figures.
+  - repo: allisonandreyev/ideator
+    language: Python
+    description: Neuro-symbolic planner and ideation assistant combining LLM seed generation, a knowledge graph, and constraint-based scoring.
+  - repo: allisonandreyev/whisperquantization
+    language: Jupyter Notebook
+    description: How FP32, INT8, INT5, and INT4 quantization of whisper.cpp affects transcription latency and word error rate.
+  - repo: willchan9/aixr_healthcare
+    language: C#
+    description: LLM-driven generation of interactive VR healthcare training scenes in Unity, from a plain-English scene description.

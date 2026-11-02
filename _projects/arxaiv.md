@@ -2,7 +2,7 @@
 layout: page
 title: arxAIv
 description: A speculative AI art installation of <strong>100+ fully AI-generated computer vision research papers</strong> examining authorship and legitimacy in academia.
-importance: 2
+importance: 9
 category: research
 tags: [AI, Computer Vision, Web Dev]
 redirect: https://allisonandreyev.github.io/arxaiv.github.io/
@@ -20,7 +20,7 @@ redirect: https://allisonandreyev.github.io/arxaiv.github.io/
   <iframe src="https://www.youtube.com/embed/EyoskUy2ZXo" frameborder="0" allowfullscreen style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none;"></iframe>
 </div>
 
-arxAIv is a speculative art installation that consists of 100 fully AI-generated computer vision research papers and 156 AI-generated figures, assembled to examine questions of authorship, legitimacy, and automation in academic publishing.
+arxAIv is a speculative art installation that consists of 100 fully AI-generated computer vision research papers and 156 AI-generated figures, assembled to examine questions of authorship, legitimacy, and automation in academic publishing. I built it on my own.
 
 I gathered analytics on the generated corpus, tracking hallucinated affiliations and institutions, common author names and nationalities, recurring features, title similarities, and topic clusters. To map the semantic structure of the collection, I built an embedding-based clustering and visualization pipeline using CLIP embeddings and a 3D force-graph library, producing three distinct force graphs: one using text embeddings, one using figure embeddings, and one comparing AI-generated figures directly against real CVPR paper figures. The result reveals how AI-generated academic content clusters, diverges, and superficially mimics real research.
 

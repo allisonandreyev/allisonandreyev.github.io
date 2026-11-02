@@ -1,8 +1,8 @@
 ---
 layout: page
 title: NASA RL Sim
-description: <strong>Reinforcement learning simulator</strong> for NASA Goddard's CORTEx TurtleBot 4 terrain-adaptive navigation project, training and visualizing a CMAC/TD3 rover-navigation agent in real time. 90.2% arrival rate on a Raspberry Pi 4 with a provably-safe control stack and an 88 KB camera-free terrain classifier.
-importance: 2
+description: <strong>Reinforcement learning simulator</strong> for NASA Goddard's CORTEx terrain-adaptive navigation project, training and visualizing a CMAC/TD3 rover-navigation agent in real time. 
+importance: 5
 category: research
 tags: [Robotics, AI]
 # img: assets/img/projects/recents/nasarl-sim-live.png

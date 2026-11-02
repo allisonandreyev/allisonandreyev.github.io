@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Earudite
-description: A <strong>crowdsourcing platform</strong> that collects speech training data from Quiz Bowl questions to improve automatic speech recognition systems.
-importance: 2
+description: A <strong>crowdsourcing platform</strong> that collects speech training data from Quiz Bowl questions to benchmark MLLMs.
+importance: 8
 category: research
 tags: [AI, Speech Recognition, Web Dev]
 # img: assets/img/projects/earudite1.png

@@ -2,13 +2,30 @@
 layout: page
 title: Harmonic
 description: Robot built for 'Decode' 25-26 competition for FIRST Tech Challenge. <strong> 3/500+ Chesapeake teams</strong> selected to compete in <strong>Governor's Cup Invitational.</strong>
-importance: 5
+importance: 6
 category: projects
 tags: [Robotics]
 images:
   slider: true
 # img: assets/img/projects/eq11.png
 ---
+
+<style>
+  #harmonicSlider swiper-slide,
+  #harmonicVideoSlider swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  #harmonicSlider figure {
+    margin: 0;
+  }
+  #harmonicSlider img,
+  #harmonicVideoSlider video {
+    height: 340px;
+    width: auto !important;
+    max-width: 100%;
+  }
+</style>
 
 <div style="display: flex; align-items: center; gap: 0.5rem; max-width: 60%; margin: 1rem auto;">
   <button onclick="document.getElementById('harmonicSlider').swiper.slidePrev()" style="background: none; border: 1px solid #ccc; border-radius: 50%; width: 2.2rem; height: 2.2rem; font-size: 1.3rem; cursor: pointer; color: #555; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">&#8249;</button>

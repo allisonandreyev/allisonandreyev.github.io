@@ -2,7 +2,7 @@
 layout: page
 title: MIT Ideator
 description: A <strong>neuro-symbolic ideation machine</strong> that combines LLM seed generation, knowledge graph reasoning, and constraint-based planning to surface <strong>diverse, high-quality ideas.</strong>
-importance: 3
+importance: 11
 category: projects
 tags: [AI, Web Dev]
 # img: assets/img/projects/ideator3.png
@@ -29,7 +29,7 @@ tags: [AI, Web Dev]
   </div>
 </div>
 
-Current ideation tools tend to generate ideas in isolation, lacking the reasoning depth, diversity, and structured evaluation needed for complex decision-making. MIT Ideator is a neuro-symbolic ideation machine that addresses this by combining LLM-driven brainstorming with a symbolic knowledge graph and constraint-based planner.
+Current ideation tools tend to generate ideas in isolation, lacking the reasoning depth, diversity, and structured evaluation needed for complex decision-making. MIT Ideator is a neuro-symbolic ideation machine that addresses this by combining LLM-driven brainstorming with a symbolic knowledge graph and constraint-based planner. I designed and built it on my own.
 
 The system takes a user brief (goals, constraints, resources, and success criteria) and runs it through a six-stage pipeline: LLM seed expansion generates 20–50 ideas as structured nodes; embedding-based KNN clustering groups similar ideas; a symbolic rule layer flags contradictions, missing prerequisites, and ethical concerns; and a holistic planner scores each idea across novelty, feasibility, cost, time, risk, and impact, then outputs the n strongest.
 

@@ -418,6 +418,32 @@ html[data-theme="dark"] {
   }
 }
 
+.repo-card {
+  color: var(--global-text-color);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  .repo-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    margin-bottom: 0.4rem;
+  }
+
+  .repo-desc {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .repo-lang {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+  }
+}
+
 // Social (bottom)
 
 .social {

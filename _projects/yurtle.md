@@ -2,7 +2,7 @@
 layout: page
 title: Yurtle
 description: Robot built for 'Into the Deep' 24-25 competition for FIRST Tech Challenge. Reached playoffs at <strong>Chesapeake Championship</strong> and selected for <strong>national robotics premier event.</strong>
-importance: 4
+importance: 7
 category: projects
 tags: [Robotics]
 # img: assets/img/projects/gg11.png
@@ -10,7 +10,7 @@ images:
   slider: true
 ---
 
-Yurtle is FTC 24158 Green Gang's robot for the 2024–25 _Into the Deep_ season.
+Yurtle is FTC 24158 Green Gang's robot for the 2024–25 _Into the Deep_ season. I was a member of the software team, so this page covers the robot's code.
 
 The centerpiece of our software is a **Finite State Machine** inspired by the Roadrunner library, used for both teleop and autonomous. In teleop, the FSM encapsulates robot state to simplify and automate subsystem transitions, scoring, transferring, and intaking all trigger automatically from a single button press. In autonomous, FSM-based state tracking lets us repeat movements and build in failsafes if any path segment goes wrong.
 

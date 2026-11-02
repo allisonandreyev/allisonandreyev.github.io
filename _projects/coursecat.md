@@ -2,7 +2,7 @@
 layout: page
 title: CourseCat
 description: A <strong>Canvas LMS AI companion app</strong> giving students a smarter, unified dashboard for assignments, grades, and schedule in one place.
-importance: 2
+importance: 10
 category: projects
 tags: [Web Dev, AI]
 redirect: https://coursecat.org
@@ -13,7 +13,7 @@ redirect: https://coursecat.org
   <a href="https://coursecat.org" class="project-link-btn link-website" role="button">Website</a>
 </div>
 
-CourseCat is a third-party companion app for Canvas LMS that gives students a smarter, unified view of their assignments, grades, and schedule. It connects securely to a school's Canvas instance via API token, with optional Synergy/StudentVUE integration for schools using both systems.
+CourseCat is a third-party companion app for Canvas LMS that gives students a smarter, unified view of their assignments, grades, and schedule. It connects securely to a school's Canvas instance via API token, with optional Synergy/StudentVUE integration for schools using both systems. I designed and built it on my own.
 
 The dashboard includes a color-coded assignment calendar with priority levels, due-date heatmaps, and alerts; a grade tracker with real-time monitoring and what-if score simulation for planning ahead; a unified assignment browser across all courses with submission status at a glance; and a modules and files explorer with inline file and PDF previews.
 

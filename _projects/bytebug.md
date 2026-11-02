@@ -27,6 +27,6 @@ tags: [Robotics, Outreach]
   </div>
 </div>
 
-ByteBug is a low-cost electronics kit I designed to introduce K-8 students to circuits and engineering. Each kit costs approximately $1.60 to produce and lets kids assemble a buzzing, light-up bug using LEDs and a mini vibration motor. I hand-soldered, labeled, shrink-wrapped the batteries, and packaged 100+ kits for distribution at outreach events.
+ByteBug is a low-cost electronics kit I designed to introduce K-8 students to circuits and engineering. Each kit lets kids assemble a buzzing, light-up bug using LEDs and a mini vibration motor. I hand-soldered, labeled, shrink-wrapped the batteries, and packaged 100+ kits for distribution at outreach events.
 
 The kit originated as an outreach tool for my FTC team (19458 Equilibrium.exe), where I designed it to replace paper circuit kits with something more engaging, a motorized bug kids could take home. It has since been used across multiple events reaching hundreds of students.

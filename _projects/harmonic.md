@@ -35,13 +35,13 @@ images:
   <button onclick="document.getElementById('harmonicSlider').swiper.slideNext()" style="background: none; border: 1px solid #ccc; border-radius: 50%; width: 2.2rem; height: 2.2rem; font-size: 1.3rem; cursor: pointer; color: #555; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">&#8250;</button>
 </div>
 
-Harmonic is FTC 19458 Equilibrium.exe's robot for the 2025–26 _Decode_ season. As the software lead, I built the full control stack from the ground up.
+Harmonic is FTC 19458 Equilibrium.exe's robot for the 2025–26 _Decode_ season. As part of the software team, I built the full control stack from the ground up.
 
 Localization is handled by an **OctoQuad coprocessor** paired with two GoBILDA 4-Bar Dead Wheel Odometry Pods, for a high-refresh absolute localizer with CRC16 error checking on encoder and localizer reads. Autonomous pathing uses a **PID-to-Point framework** with three independent PIDs (x, y, heading) for simultaneous translational and rotational control, a low-pass filter on the derivative to reduce noise, and square-root scaling on the proportional term for precision at small positional errors.
 
 A key feature is **Auto on the Fly**: autonomous paths are stored as JSON files defining sequences of four action types--move to position, toggle intake, shoot, or wait--and a custom web editor lets us create and modify paths between rounds without recompiling, making auto adaptable to any partner alliance on the spot.
 
-For shooting, I derived **auto-aim equations** from first principles using projectile motion, relating RPM and hood angle to elevation and distance from the target. We validated the model experimentally across multiple field positions and built a lookup table mapping goal distance to the optimal RPM and hood angle combination. Ball queuing in the **Spindexer** is managed with two color sensors and an array structure tracking each slot, with an 'active slot' variable that automates ball selection to maximize points per shot.
+For shooting, I derived **auto-aim equations** from first principles using projectile motion, relating RPM and hood angle to elevation and distance from the target. We tested the algorithm experimentally across multiple field positions and built a lookup table mapping goal distance to the optimal RPM and hood angle combination. Ball queuing in the **Spindexer** is managed with two color sensors and an array structure tracking each slot, with an 'active slot' variable that automates ball selection to maximize points per shot.
 
 The entire codebase is built on a **Commands framework** that separates hardware (subsystems) from logic (commands), uses lifecycle phases (initialize, execute, end) and subsystem conflict interfaces to prevent collisions, and chains simple actions into complex autonomous and teleop routines, all tunable live via **FTC Dashboard**.
 

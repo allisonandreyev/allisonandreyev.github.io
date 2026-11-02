@@ -34,7 +34,7 @@ SignScribe is a bionic-like robotic hand that translates spoken English into Ame
   </div>
 </div>
 
-The hand uses VOSK, an open-source speech recognition toolkit, to convert audio into text in real time. A Python match-case statement parses each letter and dispatches the corresponding servo commands to 7 hand servos, allowing the hand to sign any word in the English language including names and common references. The wrist has 2 degrees of freedom. A Blender-rendered GUI displays the signing hand in 3D alongside a live speech transcript, and a configuration file exposes 7+ user-adjustable settings including sign speed, word and letter pause timing, auto-save transcript, and word censoring. The physical hand sits on a 3D-printed SolidWorks-designed base with a clear acrylic frame and rubber grip pads, with a custom perforated board controlling status LEDs that communicate boot stages.
+The hand uses VOSK, an open-source speech recognition toolkit, to convert audio into text in real time. A Python match-case statement parses each letter and dispatches the corresponding servo commands to 7 hand servos, allowing the hand to sign any word in the English language including names and common references. The wrist has 2 degrees of freedom. A Blender-rendered GUI displays the signing hand in 3D alongside a live speech transcript, and a configuration file exposes 7+ user-adjustable settings including sign speed, word and letter pause timing, auto-save transcript, and word censoring. The physical hand sits on a 3D-printed SolidWorks-designed base with a clear acrylic frame and rubber grip pads, with a custom perf board controlling status LEDs that communicate boot stages.
 
 <div class="row mt-4 mb-4 justify-content-center">
   <div class="col-sm-5" style="max-width: 35%;">
@@ -48,8 +48,6 @@ The hand uses VOSK, an open-source speech recognition toolkit, to convert audio 
     </video>
   </div>
 </div>
-
-I was selected to solo present SignScribe at Demo Day to an audience of 200+ people, including Nobel Physics Prize winner Dr. Bill Phillips (MIT alum), Maryland lawmakers, UMD professors, and tech startup founders. SignScribe won the **Best Team Award**, recognizing market potential, presentation quality, teamwork, and innovation.
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 75.42%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 2em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px;">
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRScHWAjytlMcGvMKAapEf4SIF_Jrm3B7gqrxm_OBAJLkWQCmDIlX79c78hXgymEGeNPle7PfDjdsj9/pubembed?start=false&loop=false&delayms=15000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"></iframe>

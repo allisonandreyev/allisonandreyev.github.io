@@ -15,15 +15,18 @@ images:
   #harmonicVideoSlider swiper-slide {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
   }
   #harmonicSlider figure {
     margin: 0;
   }
   #harmonicSlider img,
   #harmonicVideoSlider video {
-    height: 340px;
     width: auto !important;
+    height: auto;
     max-width: 100%;
+    max-height: 340px;
   }
 </style>
 

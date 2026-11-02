@@ -45,11 +45,33 @@ horizontal: false
   </div>
 </div>
 {% else %}
+{% assign featured_projects = sorted_projects | where: "featured", true %}
+{% assign other_projects = sorted_projects | where_exp: "project", "project.featured != true" %}
+{% if featured_projects.size > 0 %}
+
+<div class="project-section">
+  <h2 class="project-section-title">Featured: hardware builds</h2>
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in featured_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>
+<div class="project-section">
+  <h2 class="project-section-title">More projects</h2>
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in other_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>
+{% else %}
 <div class="row row-cols-1 row-cols-md-3">
   {% for project in sorted_projects %}
     {% include projects.liquid %}
   {% endfor %}
 </div>
+{% endif %}
 {% endif %}
 
 </div>
@@ -86,6 +108,13 @@ horizontal: false
           const colTags = col.dataset.tags ? col.dataset.tags.split(',') : [];
           col.style.display = activeTags.some(function (t) { return colTags.includes(t); }) ? '' : 'none';
         }
+      });
+
+      document.querySelectorAll('.project-section').forEach(function (section) {
+        const visible = Array.from(section.querySelectorAll('.col[data-tags]')).some(function (col) {
+          return col.style.display !== 'none';
+        });
+        section.style.display = visible ? '' : 'none';
       });
     });
   });

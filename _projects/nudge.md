@@ -3,6 +3,7 @@ layout: page
 title: Nudge
 description: An <strong>EMG-controlled assistive glove</strong> that helps people with <strong>ALS</strong> grip and release objects.
 importance: 1
+featured: true
 category: projects
 tags: [Hardware, PCB Design, Assistive Tech]
 # img: assets/img/projects/nudge_glove.png

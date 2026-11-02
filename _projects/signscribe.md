@@ -3,6 +3,7 @@ layout: page
 title: SignScribe
 description: <strong>Award-winning</strong> bionic robotic hand that <strong>translates speech to ASL finger spelling in real time</strong> using an open-source ASR kit and rendered GUI through Blender.
 importance: 2
+featured: true
 category: research
 tags: [Robotics, Outreach, Speech Recognition, Assistive Tech]
 # img: assets/img/projects/signscribe.png

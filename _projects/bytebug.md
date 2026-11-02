@@ -3,6 +3,7 @@ layout: page
 title: ByteBug
 description: A <strong>circuit kit</strong> for kids K-8 to build a buzzing, light-up bug using LEDs and a mini vibration motor. <strong>100+ kits distributed</strong> through <strong>3 nonprofit partnerships.</strong>
 importance: 3
+featured: true
 category: projects
 tags: [Robotics, Outreach]
 # img: assets/img/projects/bytebug5.png

@@ -56,7 +56,7 @@ ninja.data = [{
               window.location.href = "/projects/arxaiv/";
             },},{id: "projects-bytebug",
           title: 'ByteBug',
-          description: "A $1.60 circuit kit for kids K-8 to build a buzzing, light-up bug using LEDs and a mini vibration motor. 100+ kits distributed through 3 nonprofit partnerships.",
+          description: "A circuit kit for kids K-8 to build a buzzing, light-up bug using LEDs and a mini vibration motor. 100+ kits distributed through 3 nonprofit partnerships.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bytebug/";
             },},{id: "projects-coursecat",
@@ -66,7 +66,7 @@ ninja.data = [{
               window.location.href = "/projects/coursecat/";
             },},{id: "projects-earudite",
           title: 'Earudite',
-          description: "A crowdsourcing platform that collects speech training data from Quiz Bowl questions to improve automatic speech recognition systems.",
+          description: "A crowdsourcing platform that collects speech training data from Quiz Bowl questions to benchmark MLLMs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/earudite/";
             },},{id: "projects-grasp",
@@ -86,12 +86,12 @@ ninja.data = [{
               window.location.href = "/projects/ideator/";
             },},{id: "projects-nasa-rl-sim",
           title: 'NASA RL Sim',
-          description: "Reinforcement learning simulator for NASA Goddard&#39;s CORTEx TurtleBot 4 terrain-adaptive navigation project, training and visualizing a CMAC/TD3 rover-navigation agent in real time. 90.2% arrival rate on a Raspberry Pi 4 with a provably-safe control stack and an 88 KB camera-free terrain classifier.",
+          description: "Reinforcement learning simulator for NASA Goddard&#39;s CORTEx terrain-adaptive navigation project, training and visualizing a CMAC/TD3 rover-navigation agent in real time.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nasarl/";
             },},{id: "projects-nudge",
           title: 'Nudge',
-          description: "A lightweight EMG-controlled assistive glove that helps people with ALS grip and release objects using their own muscle signals.",
+          description: "An EMG-controlled assistive glove that helps people with ALS grip and release objects.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nudge/";
             },},{id: "projects-signscribe",

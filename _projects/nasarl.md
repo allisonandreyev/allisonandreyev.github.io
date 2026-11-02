@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NASA RL Sim
-description: <strong>Reinforcement learning simulator</strong> for NASA Goddard's CORTEx terrain-adaptive navigation project, training and visualizing a CMAC/TD3 rover-navigation agent in real time. 
+description: <strong>Reinforcement learning simulator</strong> for NASA Goddard's CORTEx terrain-adaptive navigation project, training and visualizing a CMAC/TD3 rover-navigation agent in real time.
 importance: 5
 category: research
 tags: [Robotics, AI]

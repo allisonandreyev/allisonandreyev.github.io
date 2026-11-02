@@ -15,10 +15,6 @@ tags: [Hardware, PCB Design, Assistive Tech]
 
 Nudge is a fall internship project with UMD Cyber-Physical Systems Engineering (CPSE), building a soft assistive glove for people with ALS. A surface EMG sensor on the forearm picks up the wearer's muscle activity, and a wrist-mounted pod drives small motors that pull cables to close the thumb and index finger to grip and release everyday objects. I'm building it with three teammates, and my part is the EMG sensing hardware.
 
-### Where it started
-
-Our team is rebuilding Nudge from a first prototype built by a team in CPSE's 2026 summer program ([NudgeV1 on GitHub](https://github.com/allisonandreyev/NudgeV1)).
-
 ### What I built
 
 I designed the two **flexible EMG PCBs** in KiCad. The main one holds all three EMG sensors on a single board that wraps around the forearm, replacing the hand-wired sensors.

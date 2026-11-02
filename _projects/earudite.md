@@ -19,6 +19,6 @@ tags: [AI, Speech Recognition, Web Dev]
 
 Earudite is a crowdsourcing platform designed to collect speech training data using Quiz Bowl questions. Players answer quiz questions aloud, and their recordings are captured, transcribed, and aligned to build a labeled speech dataset.
 
-Off-the-shelf ASR systems tend to struggle with the dense proper nouns, jargon, and rapid-fire phrasing found in Quiz Bowl questions, an academic trivia format spanning literature, science, and history. Earudite turns competitive gameplay into a data collection pipeline: by making the game itself the incentive to record, it crowdsources labeled audio in a niche vocabulary domain that's otherwise expensive to collect. 
+Off-the-shelf ASR systems tend to struggle with the dense proper nouns, jargon, and rapid-fire phrasing found in Quiz Bowl questions, an academic trivia format spanning literature, science, and history. Earudite turns competitive gameplay into a data collection pipeline: by making the game itself the incentive to record, it crowdsources labeled audio in a niche vocabulary domain that's otherwise expensive to collect.
 
 The system is built as a multi-service architecture: a React frontend for gameplay, a Python/Flask data flow server for managing questions, recordings, and transcripts, a Socket server for real-time game state, and an HLS streamer for audio delivery, all coordinated through a shared MongoDB instance. I worked on both the frontend and backend, including gameplay logic, transcript processing, and account/data-management features.

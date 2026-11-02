@@ -20,7 +20,7 @@ The centerpiece of our software is a **Finite State Machine** inspired by the Ro
   </div>
 </div>
 
-To handle a 5-subsystem transfer sequence, I implemented a **Java Commands framework** that chains subsystem methods simultaneously or sequentially, abstracting all individual movements behind one driver input. 
+To handle a 5-subsystem transfer sequence, I implemented a **Java Commands framework** that chains subsystem methods simultaneously or sequentially, abstracting all individual movements behind one driver input.
 
 <div class="row mt-3 mb-3 justify-content-center">
   <div class="col-sm-4">

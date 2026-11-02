@@ -22,7 +22,7 @@ I built a MATLAB-based training simulator with a live GUI: a customizable obstac
 
 Over the course of development I tightened the safety and physics fidelity of the sim: restricting lidar range to a realistic 12m, preventing obstacles from spawning inside the goal pose, adding a soft safety-region penalty around obstacles distinct from the collision penalty, and smoothing acceleration/deceleration so velocity commands ramp instead of jumping instantaneously. I also added path-trail visualization (a solid line for the current episode, dotted for the previous one) to make training behavior easier to inspect at a glance.
 
-The finished control stack layers six modules, each independently toggleable so its contribution to the trajectory can be ablated in the GUI: Follow-the-Gap for reactive gap selection, TD3/CMAC for the learned policy, DWA kinodynamic limits, ORCA for dynamic-obstacle reciprocal avoidance, a QP solver that arbitrates between the policy's preferred action and the safety constraints, and a CBF-CLF safety layer that provides the hard collision guarantee, plus action masking and an MPC cost term. A Kalman filter fuses lidar, IR, IMU, and wheel encoders into the state estimate; on the sensing side I sectorized the lidar returns and partitioned the robot body into regions for depth scanning, so clearance is reasoned about per-direction instead of per-ray. 
+The finished control stack layers six modules, each independently toggleable so its contribution to the trajectory can be ablated in the GUI: Follow-the-Gap for reactive gap selection, TD3/CMAC for the learned policy, DWA kinodynamic limits, ORCA for dynamic-obstacle reciprocal avoidance, a QP solver that arbitrates between the policy's preferred action and the safety constraints, and a CBF-CLF safety layer that provides the hard collision guarantee, plus action masking and an MPC cost term. A Kalman filter fuses lidar, IR, IMU, and wheel encoders into the state estimate; on the sensing side I sectorized the lidar returns and partitioned the robot body into regions for depth scanning, so clearance is reasoned about per-direction instead of per-ray.
 
 <div class="row mt-3 mb-3 justify-content-center">
   <div class="col-sm-9">
@@ -37,7 +37,7 @@ The other half of my team's work was the supplemental sensing layer: an HDC-base
   <img src="{{ "assets/img/projects/recents/nasarl-hdc-similarity.png" | relative_url }}" class="img-fluid rounded z-depth-1" style="height: 280px; width: auto;" data-zoomable>
 </div>
 
-For hardware, I wrote the TurtleBot 4 deployment script: reading and formatting live sensor data, distance-based motion commands with tunable distance/speed parameters, and built-in emergency safety stops, plus the configuration docs that get deployment time under two minutes. 
+For hardware, I wrote the TurtleBot 4 deployment script: reading and formatting live sensor data, distance-based motion commands with tunable distance/speed parameters, and built-in emergency safety stops, plus the configuration docs that get deployment time under two minutes.
 
 The final poster:
 
